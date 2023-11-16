@@ -1,9 +1,19 @@
 body {
     margin: 0;
     min-height: 100dvh;
-    background-color: lightblue;
+    background-color: light-blue;
+    display: grid;
+    place-items: center;
 }
 
 .main-area {
     margin-block: auto;
+    display: grid;
+    place-items: center;
+}
+
+.qr {
+    margin-inline: auto;
+    min-height: 300px;
+    min-width: 200px;
 }
